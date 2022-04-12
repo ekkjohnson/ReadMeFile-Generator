@@ -54,10 +54,7 @@ const questions =[
 
 // TODO: Create a function to write README file
 
-    const readMe=`
-   # ${fileName}
-   ## ${questions.data}
-    `
+   
  
 
 // TODO: Create a function to initialize app
