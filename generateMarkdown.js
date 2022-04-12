@@ -10,6 +10,7 @@ function generateMarkdown(data) {
 ${data.name}
  ${data.github}
  ${data.email}
+ ##Description
  ${data.description}
   ![Github licence](http://img.shields.io/badge/license-${data.license}-blue.svg)
 
