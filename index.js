@@ -42,21 +42,23 @@ const questions =[
 ]
 
 .then((data) => {
-    const generateMarkdown= generateMarkdown(data);
+    const readMeContent = generateHTML(data);
 
-    fs.writeFile('README.md', generateMarkdown, (err) =>
+    fs.writeFile('README.md', readMeContent, (err) =>
       err ? console.log(err) : console.log('Successfully created README.md!')
     );
   });
 
 
+
+
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
+
     const readMe=`
    # ${fileName}
    ## ${questions.data}
     `
- }
+ 
 
 // TODO: Create a function to initialize app
 function init() { 
