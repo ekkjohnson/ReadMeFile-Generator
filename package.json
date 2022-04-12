@@ -11,5 +11,13 @@
   "dependencies": {
     "inquirer": "^6.3.1"
   },
-  "keywords": []
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekkjohnson/ReadMeFile-Generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ekkjohnson/ReadMeFile-Generator/issues"
+  },
+  "homepage": "https://github.com/ekkjohnson/ReadMeFile-Generator#readme"
 }

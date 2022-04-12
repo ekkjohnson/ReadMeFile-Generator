@@ -42,8 +42,8 @@ const questions =[
 ]
 
 .then((data) => {
-    const readMeContent = generateHTML(data);
-
+    const readMeContent = generateMarkdown(data);
+// TODO: Create a function to write README file
     fs.writeFile('README.md', readMeContent, (err) =>
       err ? console.log(err) : console.log('Successfully created README.md!')
     );
@@ -52,9 +52,6 @@ const questions =[
 
 
 
-// TODO: Create a function to write README file
-
-   
  
 
 // TODO: Create a function to initialize app
