@@ -1,13 +1,12 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
-const path = require('path');
+
 const inquirer = require('inquirer');
 const generateMarkdown = require('./generateMarkdown');
 console.log("welcome to my readMe generator, answer the following questions to create a README.md")
 // TODO: Create an array of questions for user input
-const questions = () => {
-    // using inquirer to prompt questions to user 
-    return inquirer.prompt([
+inquirer
+.prompt([
     {
         type: "input",
         name: "name",
@@ -40,33 +39,16 @@ const questions = () => {
         name: 'license',
     }
 ]);
-};
-const writeFile = data => {
-    fs.writeFile('README.md', data, err => {
-        // if there is an error 
-        if (err) {
-            console.log(err);
-            return;
-        // when the README has been created 
-        } else {
-            console.log("Your README has been successfully created!")
-        }
-    })
-}; 
 
-questions()
-// getting user answers 
-.then(answers => {
-    return generatePage(answers);
-})
-// using data to display on page 
-.then(data => {
-    return writeFile(data);
-})
-// catching errors 
-.catch(err => {
-    console.log(err)
-})
+
+.then((answers) => {
+    const generateMarkdown = readMe (answers);
+
+    fs.writeFile('README.md', generateMarkdown, (err) =>
+      err ? console.log(err) : console.log('Successfully created README.md!')
+    );
+  });
+
 // TODO: Create a function to write README file
 //     fs.writeFile('README.md', readMeContent, (err) =>
 //       err ? console.log(err) : console.log('Successfully created README.md!')
