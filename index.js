@@ -6,7 +6,7 @@ const generateMarkdown = require('./generateMarkdown.js');
 
 // TODO: Create an array of questions for user input
 const questions = [
-    // using inquirer to prompt questions to user 
+    
         {
             type: "input",
             name: "name",
@@ -25,7 +25,7 @@ const questions = [
         {
             type: "input",
             name: "title",
-            message: "What is the tilte of your project?",
+            message: "What is the title of your project?",
         },
         {
             type: "input",

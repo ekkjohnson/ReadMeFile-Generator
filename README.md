@@ -1,18 +1,27 @@
 # readme generator
-#Contact
-elizabeth
+  ## Table of Contents:
+  [Contact](#contact)<br>
+  [Description](#description)<br>
+  [Installation](#installation)<br>
+  [Usage](#usage)<br>
+  [Guidelines](#guidelines)<br>
+  [Tests](#tests)<br>
+  [License](#license)<br>
+  
+# Contact
+ elizabeth
  ekkjohnson
  ekkjohnson@gmail.com
  # Description
-  a generator that allows you to easily create readme files
+  a generator to creat read me files easily
   # Installation
-  n/a
+  1
   # Usage
-  n/a
+  1
   # Guidelines
-  n/a
+  1
   # Tests
-  n/a
+  1
   # License
   <br>
   
