@@ -1,10 +1,20 @@
-# e
-  ##Contact
-e
- e
- e
- ##Description
- e
-  ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
-
+# readme generator
+#Contact
+elizabeth
+ ekkjohnson
+ ekkjohnson@gmail.com
+ # Description
+  a generator that allows you to easily create readme files
+  # Installation
+  n/a
+  # Usage
+  n/a
+  # Guidelines
+  n/a
+  # Tests
+  n/a
+  # License
+  <br>
+  
+  
 

@@ -33,12 +33,30 @@ const questions = [
             message: "Please write a short description of your project",
         },
         {
+            type: 'input',
+            name: 'installation',
+            message: 'Please add installation instructions for your project.'
+        },
+        {
+            type: 'input',
+            name: 'usage',
+            message: 'Please add any usage information.'
+        },
+        {
+            type: 'input',
+            name: 'guidelines',
+            message: 'Please add contribution guidelines.'
+        },
+        {
+            type: 'input',
+            name: 'tests',
+            message: 'Please add any testing instructions.'
+        },
+        {
         type: 'list',
         name: 'license',
         message: 'What kind of license should your project have?',
-        choices: ['MIT', 'GNU'],
-        default: ["MIT"],
-            
+        choices: ['MIT', 'Apache License']
         }
     ];
 
