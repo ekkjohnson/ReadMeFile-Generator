@@ -1,0 +1,1 @@
+accidentally thought we didn't need a github repo because we were recording a video, I had to upload my local files to github so that is why I have less commits because I already had the base of the project before
