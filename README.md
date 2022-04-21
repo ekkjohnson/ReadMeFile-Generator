@@ -1,5 +1,4 @@
 # readme generator
-https://drive.google.com/file/d/1WdY5QVMkneHUfi47nbvd82JCvDuvBn78/view?usp=sharing
   ## Table of Contents:
   [Contact](#contact)<br>
   [Description](#description)<br>
@@ -10,21 +9,21 @@ https://drive.google.com/file/d/1WdY5QVMkneHUfi47nbvd82JCvDuvBn78/view?usp=shari
   [License](#license)<br>
   
 # Contact
- elizabeth
+ Elizabeth
  ekkjohnson
  ekkjohnson@gmail.com
  # Description
-  a generator to creat read me files easily
+  generates readme
   # Installation
-  1
+  n/a
   # Usage
-  1
+  n/a
   # Guidelines
-  1
+  n/a
   # Tests
-  1
+  n/a
   # License
-  <br>
-  
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)<br>
+  [The MIT license](https://opensource.org/licenses/MIT)
   
 
